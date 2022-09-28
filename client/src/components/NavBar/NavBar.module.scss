@@ -1,0 +1,43 @@
+.navbar {
+  background-image: url('../../assets/bg.png');
+  background-position: bottom;
+  width: 100%;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  min-height: 250px;
+  position: relative;
+  h1 {
+    color: black;
+    display: flex;
+    font-size: 40px;
+    font-weight: 700;
+    color: black !important;
+    text-shadow: #00ffd8 2px 0 1px, #00ffd8 0 0px 2px;
+    &:hover {
+      text-shadow: #00ffd8 1px 0 1px, #00ffd8 0 1px 1px, #00ffd8 -1px 0 1px,
+        #00ffd8 0 -1px 1px;
+      transition: all 0.15s ease-in-out;
+    }
+  }
+}
+
+.auth {
+  display: flex;
+  margin: 10px;
+  position: absolute;
+  top: 0;
+  right: 0;
+  a {
+    font-size: 16px;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    margin-right: 20px;
+    svg {
+      margin-right: 8px;
+    }
+  }
+}
